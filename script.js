@@ -1,14 +1,9 @@
 function chunkString(str, size) {
-  let chunks = [];
-  for (let i = 0; i < str.length; i += size) {
-    chunks.push(str.slice(i, i + size));
+  chunkString("BalleBalle",3)
   }
-  return chunks;
-}
+
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
-
-x
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(striongChop(str, size));
